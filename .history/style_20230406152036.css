@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+.navbar-toggler{
+    outline: none !important;
+}
+/* Banner section */
+#banner{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+
+
+}
+.play-btn{
+    width: 45px;
+    margin: 20px;
+}
+.service-img{
+    width: 100px;
+    margin-top: 20px;
+}
+.services{
+    padding: 20px;
+}
+.services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.title::before{
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after{
+    content: '';
+    background: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+#services .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    outline: none;
+    border: none;
+
+}
+#about-us{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+/* testimonials section */
+#testimonials{
+    margin: 100px 0;
+
+}
+.testimonials{
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonials img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+}
+/* social media secion */
+#social-media{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+#social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+.social-icons img{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+/* footer section */
+#footer{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+.footer-img{
+    width: 100%;
+}
+.footer-box{
+    padding: 20px;
+
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .fa-solid{
+    margin-right: 8px;
+    font-size: 25px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+.footer-box .form-control{
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box .btn-primary{
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+
+}
+hr{
+    background-color: #ffff;
+
+}
+.copyright{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+}

@@ -1,0 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav-bar{
+    background-image: linear-gradient(#A569BD, #BB8FCE);
+}

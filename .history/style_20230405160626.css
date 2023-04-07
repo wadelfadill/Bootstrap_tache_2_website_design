@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+.navbar-toggler{
+    outline: none !important;
+}
+/* Banner section */
+#banner{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+
+
+}
+.play-btn{
+    width: 45px;
+    margin: 20px;
+}
